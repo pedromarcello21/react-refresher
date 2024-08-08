@@ -6,6 +6,7 @@ export default function NavBar() {
     <div>
         <NavLink style = {active => active ? {fontStyle: 'italic', color:'white'} : null } to="/" >Home</NavLink>
         <NavLink style = {active => active ? {fontStyle: 'italic', color:'white'} : null } to="/favorites">Favorites</NavLink>
+
     </div>
   )
 }

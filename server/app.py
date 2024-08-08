@@ -4,7 +4,7 @@ from flask import request
 from models import Song, Favorite
 
 from config import app, db
-
+########################Songs Routes###################################
 @app.get('/')
 def index():
     return "Routes: GET /music - Top Ten Songs"
@@ -14,8 +14,15 @@ def all_songs():
     all_songs = Song.query.all()
     return [song.to_dict() for song in all_songs], 200
 
+@app.post('/songs')
+def add_song():
+    data = request.json
+    new_song = Song(**data)
+    db.session.add(new_song)
+    db.session.commit()
+    return data, 201
 
-
+########################Favorites routes########################
 @app.get('/favorites')
 def favorites():
     all_favorites = Favorite.query.all()
@@ -37,11 +44,15 @@ def create_favorite():
 
 @app.delete('/favorites/<int:id>')
 def delete_favorite(id):
-    deleted_song = Favorite.query.where(Favorite.song_id == id).first()
+    deleted_song = Favorite.query.get(id)
+    if deleted_song is None:
+        return {"error": "Favorite not found"}, 404
+    
     db.session.delete(deleted_song)
     db.session.commit()
 
     return {}, 204
+
 
 
 if __name__ == '__main__':

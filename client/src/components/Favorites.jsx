@@ -10,7 +10,7 @@ export default function Favorites() {
         fetch('http://localhost:5555/favorites') //is speaking to app.py
         .then(res => res.json())
         .then(data => setFavorites(data)) //last part is to set state based on what you're calling for
-    })
+    }, [])
 
     function removeFavorite(favoriteToRemove){
         const filteredFavorites = favorites.filter(favorite => favorite !== favoriteToRemove)
