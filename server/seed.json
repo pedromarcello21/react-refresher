@@ -3,52 +3,72 @@
         {
             "title": "bad idea right?",
             "artist": "Olivia Rodrigo",
-            "youtube_link": "https://youtu.be/Dj9qJsJTsjQ?feature=shared"
+            "youtube_link": "https://youtu.be/Dj9qJsJTsjQ?feature=shared",
+            "youtube_embed":"Dj9qJsJTsjQ"
+            
         },
         {
             "title": "On My Mama",
             "artist": "Victoria Monét",
-            "youtube_link": "https://youtu.be/KdJ-Qwu3y4Y?feature=shared"
+            "youtube_link": "https://youtu.be/KdJ-Qwu3y4Y?feature=shared",
+            "youtube_embed":"KdJ-Qwu3y4Y"
+            
         },
         {
             "title": "My House",
             "artist": "Beyoncé",
-            "youtube_link": "https://youtu.be/hAsDiZn61Wo?feature=shared"
+            "youtube_link": "https://youtu.be/hAsDiZn61Wo?feature=shared",
+            "youtube_embed":"hAsDiZn61Wo"
+            
         },
         {
             "title": "Ella Baila Sola",
             "artist": "Peso Pluma and Eslabon Armado",
-            "youtube_link": "https://youtu.be/lZiaYpD9ZrI?feature=shared"
+            "youtube_link": "https://youtu.be/lZiaYpD9ZrI?feature=shared",
+            "youtube_embed":"lZiaYpD9ZrI"
+            
         },
         {
             "title": "Padam Padam",
             "artist": "Kylie Minogue",
-            "youtube_link": "https://youtu.be/p6Cnazi_Fi0?feature=shared"
+            "youtube_link": "https://youtu.be/p6Cnazi_Fi0?feature=shared",
+            "youtube_embed":"p6Cnazi_Fi0"
+            
         },
         {
             "title": "So Much (For) Stardust",
             "artist": "Fall Out Boy",
-            "youtube_link": "https://youtu.be/bv1D0kFxKC4?feature=shared"
+            "youtube_link": "https://youtu.be/bv1D0kFxKC4?feature=shared",
+            "youtube_embed":"bv1D0kFxKC4"
+            
         },
         {
             "title": "Nearly Daffodils",
             "artist": "English Teacher",
-            "youtube_link": "https://youtu.be/x6xKTRZm3vI?feature=shared"
+            "youtube_link": "https://youtu.be/x6xKTRZm3vI?feature=shared",
+            "youtube_embed":"x6xKTRZm3vI"
+            
         },
         {
             "title": "If You Were Mine",
             "artist": "Miranda Lambert and Leon Bridges",
-            "youtube_link": "https://youtu.be/TUh8LV9Qi5k?feature=shared"
+            "youtube_link": "https://youtu.be/TUh8LV9Qi5k?feature=shared",
+            "youtube_embed":"TUh8LV9Qi5k"
+            
         },
         {
             "title": "I Play My Bass Loud",
             "artist": "Gina Birch",
-            "youtube_link": "https://youtu.be/w1UOTCWmPvU?feature=shared"
+            "youtube_link": "https://youtu.be/w1UOTCWmPvU?feature=shared",
+            "youtube_embed":"w1UOTCWmPvU"
+            
         },
         {
             "title": "(It Goes Like) Nanana",
             "artist": "Peggy Gou",
-            "youtube_link": "https://youtu.be/sCz5y84dwuA?feature=shared"
+            "youtube_link": "https://youtu.be/sCz5y84dwuA?feature=shared",
+            "youtube_embed":"sCz5y84dwuA"
+            
         }
     ]
 }
