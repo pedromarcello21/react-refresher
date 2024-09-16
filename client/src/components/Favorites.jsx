@@ -13,7 +13,8 @@ export default function Favorites() {
     }, [])
 
     function removeFavorite(favoriteToRemove){
-        const filteredFavorites = favorites.filter(favorite => favorite !== favoriteToRemove)
+        const filteredFavorites = favorites.filter(
+          favorite => favorite !== favoriteToRemove)
         setFavorites(filteredFavorites)
     }
 

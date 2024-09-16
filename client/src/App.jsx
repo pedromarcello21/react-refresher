@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <h1>Top 10 Songs of 2023</h1>
+      <h1>Top {songs.length} Songs of 2023</h1>
       <Songs songs = {songs}/>
       <SongForm songs = {songs} setSongs = {setSongs}/>
 
